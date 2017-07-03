@@ -46,7 +46,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -75,4 +75,35 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+  #main_content {
+    background-color: #ddffff
+  }
+  #sidebar_content div {
+    background-color: #ffffdd;
+  }
+  #site_footer {
+    background-color: #ffd582;
+  }
+  #site_footer nav a{
+    padding: 8%;
+  }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1100px){
+    h1{
+        color: orange;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+
 }
