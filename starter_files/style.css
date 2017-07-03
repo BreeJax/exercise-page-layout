@@ -90,9 +90,13 @@ header{
   }
   #site_footer {
     background-color: #ffd582;
+}
+  #site_footer nav{
+    display: flex;
+    justify-content: space-around;
   }
-  #site_footer nav a{
-    padding: 8%;
+  #site_footer nav a {
+    margin: 1em;
   }
 
 }
