@@ -112,11 +112,12 @@ header{
     flex-direction: row;
     justify-content: space-around;
 }
-  #main_nav nav{
-  }
-  #main_nav nav a {
+
+  #main_nav a {
     margin: 1em;
-    width: 20em;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #main_content {
@@ -142,5 +143,22 @@ header{
 }
 
 @media screen and (min-width: 1101px) {
+
+
+  #main_content {
+    background-color: #ddffff;
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+  }
+  p{
+    width: 40%;
+  }
+  #sidebar_content {
+    background-color: #ffffdd;
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+  }
 
 }
