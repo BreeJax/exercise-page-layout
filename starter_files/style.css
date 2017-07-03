@@ -160,5 +160,43 @@ header{
     justify-content: space-around;
     margin: 1em;
   }
+  #main_nav a {
+    margin: 1em;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+
+  header nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav a {
+    margin: 1em;
+  }
+  #site_footer {
+    background-color: #ffd582;
+}
+  #site_footer nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  #site_footer nav a {
+    margin: 1em;
+  }
+  #site_footer > nav > a:nth-child(1) {
+    position: relative;
+    right: -20%;
+  }
+  #site_footer > nav > a:nth-child(3){
+    position: relative;
+    left: -20%;
+  }
+  }
 
 }
