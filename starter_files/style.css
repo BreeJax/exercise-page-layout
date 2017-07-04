@@ -67,7 +67,7 @@ header{
 
 #main_nav a{
     display: block;
-    padding: 10px 2%;
+    padding: 1.5em 2%;
     background: #ffdddd;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -98,6 +98,7 @@ header{
   #site_footer nav a {
     margin: 1em;
   }
+
 
 }
 
@@ -144,13 +145,22 @@ header{
 
 @media screen and (min-width: 1101px) {
 
-
   #main_content {
     background-color: #ddffff;
     display: flex;
     justify-content: space-around;
     margin: 1em;
-    padding-left: em;
+  }
+  #main_nav{
+    display: flex;
+    align-items: center;
+  }
+
+  #main_nav a {
+    padding: 1em 10%;
+    width: 5em;
+    position: relative;
+    right: -40%;
   }
 
   #sidebar_content {
@@ -159,25 +169,20 @@ header{
     justify-content: space-around;
     margin: 1em;
   }
-  #main_nav a {
-    margin: 1em;
-    width: 20%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   header {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    align-content:
   }
-
   header nav{
+    width: 50em;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
   }
-  header nav a {
-    margin: 1em;
-  }
+
+
+
   #site_footer {
     background-color: #ffd582;
 }
